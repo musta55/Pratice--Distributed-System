@@ -1,13 +1,11 @@
 const express = require("express");
 const router = express.Router();
-const app = express();
 // const ctrlUser = require('../controllers/user.controller');
-const ctrlPost = require("../firstCode");
+const ctrlPost = require("../secondCode");
 
 //Post
 
 //Retrieve first
-router.get("/1st", ctrlPost.GetPosts);
-
+router.get("/2nd", ctrlPost.GetPosts);
 
 module.exports = router;
