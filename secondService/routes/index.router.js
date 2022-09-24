@@ -8,6 +8,7 @@ const ctrlPost = require("../secondCode");
 //Retrieve first
 router.get("/2nd", ctrlPost.GetPosts);
 
+
 router.post("/2nd", ctrlPost.CreatePost);
 
 module.exports = router;
